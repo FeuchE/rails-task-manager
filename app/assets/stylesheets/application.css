@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+.container {
+  margin: 24px;
+  margin-top: 48px;
+}
+
+ ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.task-checkbox {
+  margin: 0;
+}
+
+.task-link {
+  text-decoration: none;
+}
